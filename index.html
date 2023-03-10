@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>March 8 HTML CSS Static Web Page Design</title>
+
+    <style>
+        #main {
+            background-color: #ededed;
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #titlediv 
+        {
+            background-color: white;
+            font-size: 30pt;
+            font-weight: bold;
+            color: dodgerblue;
+        }
+
+        #bodydiv 
+        {
+            background-color: darkorange;
+            display: flex;
+            flex-direction: row; 
+
+        }
+
+        #newsdiv 
+        {
+            background-color: #ededed;
+        }
+
+        #footerdiv 
+        {
+            background-color: #faf7f7;
+            color: dimgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 100px;
+            align-items: center;
+        }
+        #leftdiv {
+            background-color: lightpink;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #rightdiv
+        {
+            background-color: lightblue; 
+            flex-grow: 1; 
+        }
+        #biodiv
+        {
+            background-color: antiquewhite;
+        }
+        #lowdiv
+        {
+            background-color: palevioletred; 
+            display: flex; 
+            flex-direction: row; 
+        }
+        #interestdiv
+        {
+            background-color: indianred;
+        }
+        #educationdiv
+        {
+            background-color: cornflowerblue; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="titlediv">
+            Madison Giovenco's Website
+        </div>
+
+        <div id="bodydiv">
+            <div id="leftdiv">
+                <div>
+                    <img style="width:200px; border-radius:50%;" src="static/imgs/head2.png" />
+                </div>
+                
+                <div style="font-size:30px;"> Madison Giovenco </div>
+                
+                <div> Student in Management Information Systems </div>
+
+                    <div>
+                        The University of Oklahoma
+                    </div>
+
+                    <div>
+                        <a href="mailto:xinglong.ju@ou.edu">
+                            <img style="width:30px;" src="static/imgs/email.png" />
+                        </a>
+
+                        <a target="_blank" href="https://www.linkedin.com/">
+                            <img style="width:30px;" src="static/imgs/linkedin.png" />
+                        </a>
+
+                        <a target="_blank" href="https://twitter.com/">
+                            <img style="width:30px;" src="static/imgs/twitter.png" />
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com">
+                            <img style="width:30px;" src="static/imgs/instagram.png" />
+                        </a>
+
+                    </div>
+            </div>
+
+            <div id="rightdiv">
+                <div id="biodiv">
+
+                    <p>
+                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                    </p>
+
+                    <p>
+                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                    </p>
+
+                    <p>
+                        For more information, please refer to my <a href="static/files/cv.pdf" target="_blank" "> CV </a>
+                    </p>
+
+                </div>
+
+                <div id="lowdiv">
+                    
+                    <div id="interestdiv">
+                        <span style="font-size:30px; font-weight: bold;"> Interests </span>
+
+                        <ol>
+                            <li> Analyst/Programmer </li>
+                            <li> Business Analyst </li>
+                            <li> Database Administration </li>
+                            <li> Web Developer </li>
+                            <li> Data Scientists </li>
+                        </ol>
+                        
+                    </div>
+
+                    <div id="educationdiv">
+                        <span style="font-size:30px; font-weight:bold;"> Education </span>
+
+                        <ol>
+                            <li>
+                                M.S. in Management Information Systems, 2024 <br/> 
+                                The University of Oklahoma
+                            </li>
+
+                            <li>
+                                B.E. in Management Information Systems, 2022 <br/> 
+                                The University of Oklahoma
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                   
+            </div>
+            
+
+        </div>
+
+        <div id="newsdiv">
+            <span style="font-size: 20px; font-weight: bold"> Recent News </span>
+
+            <ul>
+                <li> Learning C# Web Application Design </li>
+                <li> Learning C# EF </li>
+            </ul>
+
+        </div>
+
+        <div id="footerdiv">
+            Designed and Published by Madison Giovenco
+        </div>
+
+    </div>
+</body>
+</html>
